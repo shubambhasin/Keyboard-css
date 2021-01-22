@@ -1,0 +1,99 @@
+/* 
+.center{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+  }
+  .btn
+  {
+    text-align:center;
+    border:0.5px solid black;
+    align-items:center;
+    margin:5px;
+    padding:20px;
+    width:200px;
+    border-radius:5px;
+    box-shadow: 5px 5px 1px 2px black;
+   outline:none;
+    transition:0.5s;
+  }
+  
+  .btn:hover
+  {
+    box-shadow: 0px 0px 0px 0px grey;
+     transform: translate(5px,4px);
+  }
+  
+  .btn1,.btn2,.btn3,.btn4
+  {
+    text-align:center;
+    width:80px;
+  }
+  
+  .fa
+  {
+      color: black;
+  } */
+
+  body
+  {
+
+  }
+  header
+  {
+      text-align: center;
+  }
+  .keyboard-container
+  {
+      display: block;
+      margin: auto;
+      margin-top: 70px;
+      justify-content: auto;
+      margin-left: 20px;
+      
+  }
+ 
+.bgg-gray
+{
+    text-align: center;
+    border: 0.1px solid black;
+    border-radius:5px;
+    box-shadow: 3px 3px 1px 2px black;
+   outline:none;
+    transition:0.3s;
+    margin: 2px;
+}
+
+.bgg-gray:hover
+{
+    box-shadow: 0px 0px 0px 0px grey;
+     transform: translate(5px,4px); 
+    cursor: pointer;
+}
+
+.alphabet
+{
+    width: 20px;
+}
+
+
+
+
+.bgg-gray {background-image: linear-gradient(to right, #232526 0%, #414345  51%, #232526  100%)}
+.bgg-gray {
+   text-align: center;
+   transition: 0.3s;
+   background-size: 200% auto;
+   color: white;          
+   box-shadow: 3px 3px 1px 2px black;  
+   border-radius: 5px;
+   display: block;
+ }
+
+ .bgg-gray:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: #fff;
+   box-shadow: 0px 0px 0px 0px grey;
+     transform: translate(5px,4px); 
+    cursor: pointer;
+ }
