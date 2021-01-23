@@ -3,8 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-
+    <title>Keyboard UI | Shubam Bhasin</title>
+<link rel="icon" href="./icon.jpg">
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css"
@@ -18,6 +18,7 @@
   <body>
     <header>
       <h1>Keyboard using CSS</h1>
+      <h3>[ Hover on the Keys to see magic ]</h3>
       <h4>< Please view it on Desktop 😊 ></h4>
     </header>
     <div class="keyboard-container">
@@ -34,9 +35,9 @@
           <button class="one wide column bgg-gray row-1">F8</button>
           <button class="one wide column bgg-gray row-1">F9</button>
           <button class="one wide column bgg-gray row-1">F10</button>
+          <button class="one wide column bgg-gray row-1">F11</button>
           <button class="one wide column bgg-gray row-1">F12</button>
           <button class="one wide column bgg-gray row-1">PrtScr</button>
-          <button class="one wide column bgg-gray row-1">Insert</button>
           <button class="one wide column bgg-gray row-1">Delete</button>
         </div>
         <div class="ui fourteen column grid">
@@ -52,7 +53,7 @@
           <button class="one column bgg-gray">9</button>
           <button class="one column bgg-gray">0</button>
           <button class="one column bgg-gray">+ =</button>
-          <button class="one wide column bgg-gray">Backspace</button>
+          <button class="wide column bgg-gray">Backspace</button>
         </div>
         <div class="ui fifteen column grid">
           <button class="column bgg-gray">Tab</button>
@@ -128,6 +129,7 @@
         </div>
       </div>
     </div>
+    <audio id="key-Click" src="./keyclick.mp3" preload="auto"></audio>
     <div class="footer">
       <h3>
         Made by
